@@ -21,7 +21,7 @@ public class HomeController {
 	@GetMapping("/users")
 	public List<User> getUser() {
 		System.out.println("getting users");
-		return userService.getUsers();
+		return userService.getUsers()
 	}
 
 }
